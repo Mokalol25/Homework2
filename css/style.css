@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header main {
+    width: 930px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+header {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.menu-list {
+    list-style: none;
+    text-align: center;
+}
+.menu-item {
+    display: inline-block;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+article {
+    display: inline-block;
+    width: 48.7%;
+}
+article::nth-child(odd) {
+    margin-right: 1%;
+}
+article::nth-child(even) {
+    margin-left: 1%;
+}
+.thumb {
+    width: 100%;
+}
