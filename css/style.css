@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Noto Serif';
+}
 header main {
     width: 930px;
     max-width: 100%;
@@ -24,9 +27,18 @@ header {
     margin-left: 50px;
     margin-right: 50px;
 }
+.menu-link {
+    color: #777;
+    transition: all .3s;
+}
+.menu-link:hover {
+    color: aqua;
+}
 article {
     display: inline-block;
+    padding-right: 50px;
     width: 48.7%;
+    padding-left: 150px;
 }
 article::nth-child(odd) {
     margin-right: 1%;
@@ -36,4 +48,25 @@ article::nth-child(even) {
 }
 .thumb {
     width: 100%;
+}
+footer {
+    text-align: center;
+    padding-top: 90px;
+    padding-bottom: 20px;
+}
+.category {
+    color: #777;
+    transition: all .3s;
+}
+.category:hover {
+    color: aqua;
+}
+.article-title {
+    padding-top: 20px;
+}
+.article-title {
+    color: #777;
+}
+.exerpt {
+    padding-top: 20px;
 }
